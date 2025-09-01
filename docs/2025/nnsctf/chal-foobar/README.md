@@ -1,9 +1,15 @@
----
-tags: [rev, elf64, z3]
-level: medium
-event: NNSCTF 2025
----
+# CTF Reports (MkDocs + Material)
 
-# chal-foobar (Rev)
+This repo hosts personal CTF reports/write-ups with reproducible steps.
 
-<!-- Dán template báo cáo rút kinh nghiệm của bạn vào đây -->
+## Local preview
+```bash
+pip install mkdocs mkdocs-material mkdocs-git-revision-date-localized-plugin
+mkdocs serve
+# open http://127.0.0.1:8000
+```
+
+## Deploy
+Every push to `main` triggers GitHub Actions to build & publish to `gh-pages`.
+Site URL (after you replace `<your-user>`):  
+`https://<your-user>.github.io/ctf-reports/`
