@@ -3,13 +3,6 @@
 Kho lưu **bài rút kinh nghiệm CTF** dạng Markdown — **không cần GitHub Pages**.  
 Xem trực tiếp trên GitHub là đủ.
 
-## Mục lục
-- 2025
-  - NNSCTF
-    - [devsecoops](./2025/nnsctf/devsecoops/README.md)
-
----
-
 ## Cách thêm bài mới (GUI, không cần terminal)
 1. Vào thư mục năm/sự kiện (ví dụ `2025/nnsctf/`) → **Add file → Create new file**.  
 2. Đặt đường dẫn dạng: `2025/nnsctf/<ten-chal>/README.md`.  
